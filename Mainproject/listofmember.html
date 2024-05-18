@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Manage Members</title>
+    <link rel="stylesheet" type="text/css" href="listofmemberstyle.css">
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const listMembersButton = document.getElementById("list-members-btn");
+            const membersSublist = document.getElementById("members-sublist");
+
+            listMembersButton.addEventListener("click", function () {
+                membersSublist.style.display = membersSublist.style.display === "block" ? "none" : "block";
+            });
+
+            document.getElementById("pm-btn").addEventListener("click", function () {
+                showMembers("pm-list");
+            });
+            document.getElementById("tm-btn").addEventListener("click", function () {
+                showMembers("tm-list");
+            });
+
+            function showMembers(listId) {
+                document.getElementById("pm-list").style.display = "none";
+                document.getElementById("tm-list").style.display = "none";
+                document.getElementById(listId).style.display = "block";
+            }
+
+            // Initially hide both lists and sublist
+            membersSublist.style.display = "none";
+            document.getElementById("pm-list").style.display = "block";
+            document.getElementById("tm-list").style.display = "none";
+        });
+
+        function deleteMember(event) {
+            event.target.closest('li').remove();
+        }
+    </script>
+</head>
+<body>
+    <div class="sidenav">
+        <button id="list-members-btn">List of Members</button>
+        <div id="members-sublist" class="sublist">
+            <button id="pm-btn">Project Managers</button>
+            <button id="tm-btn">Team Members</button>
+        </div>
+    </div>
+    <div class="content">
+        <ul id="pm-list" class="member-list">
+            <li>Sowmiya <span class="delete" onclick="deleteMember(event)">&#10060;</span></li>
+            <li>Muzamil <span class="delete" onclick="deleteMember(event)">&#10060;</span></li>
+            <li>Jaya <span class="delete" onclick="deleteMember(event)">&#10060;</span></li>
+            <li>Aravind<span class="delete" onclick="deleteMember(event)">&#10060;</span></li>
+            <li>Venu<span class="delete" onclick="deleteMember(event)">&#10060;</span></li>
+        </ul>
+        <ul id="tm-list" class="member-list">
+            <li>Tharun <span class="delete" onclick="deleteMember(event)">&#10060;</span></li>
+            <li>Suren<span class="delete" onclick="deleteMember(event)">&#10060;</span></li>
+            <li>Tara<span class="delete" onclick="deleteMember(event)">&#10060;</span></li>
+            <li>Savi<span class="delete" onclick="deleteMember(event)">&#10060;</span></li>
+            <li>Pavi<span class="delete" onclick="deleteMember(event)">&#10060;</span></li>
+        </ul>
+    </div>
+</body>
+</html>
