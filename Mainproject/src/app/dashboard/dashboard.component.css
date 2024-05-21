@@ -1,0 +1,124 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+#img{
+  position: relative;
+  border-radius: 40px;
+  top: 20px;
+}
+
+#text{
+  position: relative;
+  top: 25px;
+}
+
+#but1{
+position: relative;
+top: 50px;
+}
+
+#but2{
+position: relative;
+top: 70px;
+}
+
+#part1{
+  text-align: center;
+  background: rgba(87, 87, 87, 0.5);
+}
+
+#para2{
+  
+}
+
+#paradiv
+{
+  display: grid;
+  grid-template-columns: 25% 75%;
+}
+
+/* Main container styles */
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  background: url('https://cdn.pixabay.com/photo/2017/02/08/08/47/computer-2048166_1280.jpg') no-repeat center center fixed;
+  background-size: cover;
+  /* color: #fff; Change font color for better visibility */
+  position: relative; /* Needed for absolute positioning */
+}
+
+/* Navigation styles */
+nav {
+  background: rgba(172, 169, 169, 0.5); /* Semi-transparent background for better readability */
+  width: 250px;
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.logo {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+nav ul {
+  width: 100%;
+  text-align: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.icon {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better readability */
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+/* Add animation */
+#hero {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
