@@ -1,0 +1,28 @@
+<h2>{{ clientId ? 'Edit Client' : 'Add Client' }}</h2>
+<form [formGroup]="clientForm" (ngSubmit)="onSubmit()">
+
+  <!-- Project Name -->
+  <div>
+    <label for="projectName">Project Name:</label>
+    <input id="projectName" formControlName="projectName" type="text" />
+    <div *ngIf="clientForm.get('projectName')?.invalid && clientForm.get('projectName')?.touched">
+      Project Name is required.
+    </div>
+  </div>
+
+  <!-- Project Description -->
+  <div>
+    <label for="projectDescription">Project Description:</label>
+    <textarea id="projectDescription" formControlName="projectDescription"></textarea>
+  </div>
+
+  <!-- Project Deadline -->
+  <div>
+    <label for="projectDeadline">Project Deadline:</label>
+    <input id="projectDeadline" formControlName="projectDeadline" type="date" />
+  </div>
+
+  <!-- Submit and Cancel buttons -->
+  <button type="submit" >Submit</button>
+  <button type="button" (click)="cancel()">Cancel</button>
+</form>

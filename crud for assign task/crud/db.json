@@ -1,0 +1,14 @@
+{
+    "clients": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "email": "john@example.com",
+        "phone": "1234567890",
+        "projectName": "Project Alpha",
+        "projectDescription": "Description of Project Alpha",
+        "projectDeadline": "2023-12-31"
+      }
+    ]
+  }
+  
