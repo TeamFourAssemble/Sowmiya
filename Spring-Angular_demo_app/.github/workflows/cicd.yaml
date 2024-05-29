@@ -33,5 +33,5 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: basicdemos
-          publish-profile: ${{ secrets. }}
+          publish-profile: ${{ secrets.DEMOSPRINGAPI }}
           package: '*.jar'
