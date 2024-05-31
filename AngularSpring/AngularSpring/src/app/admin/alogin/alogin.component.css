@@ -1,0 +1,282 @@
+#head {
+    position: static;
+    top: 0px;
+    border-bottom: 0.5px solid rgb(190, 189, 189);
+    height: 20vh;
+    margin: -8px;
+    background-color: white;
+  }
+  
+  #logo {
+    width: 100px;
+    position: relative;
+    left: 30px;
+    top: 17px;
+    display: inline-block;
+    text-align: center;
+    height: 45px;
+  }
+  
+  #navigation {
+    background-color: rgb(232, 227, 227);
+    border-radius: 30px;
+    width: 800px;
+    position: relative;
+    left: 170px;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    height: 30px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:hover {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(2, 2, 46);
+    border-radius: 30px;
+  }
+  
+  #navi1 {
+    border-radius: 30px;
+    position: absolute;
+    left: 110px;
+    width: 70px;
+    padding: 7px;
+  }
+  
+  #navi2 {
+    border-radius: 30px;
+    /* border: 1px solid black; */
+    position: absolute;
+    left: 310px;
+    width: 70px;
+    padding: 7px;
+  }
+  
+  #navi3 {
+    border-radius: 30px;
+    position: absolute;
+    left: 510px;
+    width: 70px;
+    padding: 7px;
+  }
+  #navi4 {
+    border-radius: 30px;
+    position: absolute;
+    left: 710px;
+    width: 70px;
+    padding: 7px;
+  }
+  
+  #footer {
+    margin: -8px;
+    height: 60vh;
+    background-color: rgb(2, 2, 46);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+  }
+  
+  #body {
+    display: grid;
+    grid-template-columns: 55% 45%;
+    margin-top: 10px;
+    height: 90vh;
+    border-bottom: 0.5px solid rgb(190, 189, 189);
+  }
+  
+  .login-box {
+    position: absolute;
+    top: 50%;
+    left: 82%;
+    width: 400px;
+    padding: 40px;
+    margin-top: 80px;
+    transform: translate(-50%, -50%);
+    background-color: rgb(232, 227, 227);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .login-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: black;
+  }
+  
+  .login-box .user-box {
+    position: relative;
+  }
+  
+  .login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: black;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+  }
+  
+  .login-box .user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: black;
+    pointer-events: none;
+    transition: .5s;
+  }
+  
+  .login-box .user-box input:focus~label,
+  .login-box .user-box input:valid~label {
+    top: -20px;
+    left: 0;
+    color: #03e9f4;
+    font-size: 12px;
+  }
+  
+  .login-box form {
+    display: inline-block;
+  }
+  
+  .login-box form input[type="submit"] {
+    width: auto;
+    /* background: #03e9f4; */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: black;
+    font-size: 16px;
+    transition: background 0.3s ease;
+  }
+  
+  .login-box form input[type="submit"]:hover {
+    background-color: rgb(2, 2, 46);
+    color: white;
+  }
+  
+  .login-box form .forgot-password {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 10px;
+    transition: transform 0.5s ease;
+  }
+  
+  .rotate {
+    transform: rotateY(180deg);
+  }
+  
+  .image-container {
+    width: 500px;
+    height: 600px;
+  }
+  
+  .image-container img {
+    margin-top: 60px;
+    margin-left: 80px;
+    width: 800px;
+    height: 82%;
+    border-radius: 15px;
+  }
+  #box{
+  display: inline-block;
+  position: relative;
+  left: 1200px;
+  top: 10px;
+  height: 20px;
+  width: 20px;
+  border: #fff;
+  
+  
+  }
+  
+  #list{
+  display: none;
+  position: relative;
+  top: 10px;
+  right:60px;
+  border-radius: 10px;
+  }
+  
+  #icon{
+  display: inline;
+  width: 45px;
+  height: 45px;
+  }
+  .image-button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    display: inline-block;
+  }
+  #box {
+      position: relative;
+  }
+  
+  .button-container {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 50px;
+      background: #f9f9f9;
+      padding: 10px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .button-container button {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      margin: 5px 0;
+      border-radius: 8px;
+      cursor: pointer;
+      text-align: center;
+  }
+  
+  .button-container button:hover {
+      background-color: #0056b3;
+  }
+  
+  .button-container button a {
+      color: white;
+      text-decoration: none;
+  }
+  
+  .button-container button a:hover {
+      text-decoration: underline;
+  }
+  
+  
+  footer{
+    height: 290px;
+    width: auto;
+    background-color: rgb(60, 52, 78);  
+    color: white;
+  
+  }
+  
+  .foot span{
+  
+    margin: 20px;
+    font-size: medium;
+  }
+  
+  
+  

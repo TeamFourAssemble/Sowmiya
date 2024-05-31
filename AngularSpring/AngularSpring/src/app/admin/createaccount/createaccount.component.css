@@ -1,0 +1,156 @@
+#containers{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-column-gap: 50px;
+    height: 50vh;
+}
+
+#conter1{
+    position: relative;
+    top: 70px;
+    left: 60px;
+    border-radius: 30px;
+    background: rgba(87, 87, 87, 0.5);
+}
+#id{
+    margin-top: 20px;
+}
+
+#conter2{
+    margin:0Px;
+    position: relative;
+    top: 70px;
+    left: 100px;
+    border-radius: 30px;
+    background: rgba(87, 87, 87, 0.5);
+}
+
+#img{
+    border-radius: 80px;
+    position: relative;
+  }
+
+.but{
+    border: white;
+    /* background: rgba(103, 102, 102, 0.5); */
+    position: relative;
+    top: 10px;
+    height: 40px;
+    width: 100px;
+    border-radius: 30px;
+}
+
+.but:hover{
+    border: white;
+    background-color: #fff;
+    position: relative;
+    top: 10px;
+    height: 40px;
+    width: 100px;
+    border-radius: 30px;
+}
+
+
+.same{
+
+    height: 40px;
+    line-height: 40px;
+    font-size: larger;
+  }
+  
+  .same:hover{
+    background-color: #fff;
+    border-radius: 10px;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+    font-size: large;
+  }
+  
+  
+  #but2{
+  position: relative;
+  margin-top: 30px;
+  }
+  
+  #part1{
+    border-radius: 30px;
+    text-align: center;
+    background: rgba(87, 87, 87, 0.5);
+  }
+  
+  #part2{
+    margin-left: 10px;
+    border-radius: 30px;
+    text-align: center;
+    background: rgba(87, 87, 87, 0.5);
+  }
+  
+  #paradiv
+  {
+    height: 97vh;
+    display: grid;
+    grid-template-columns: 20% 80%;
+  }
+  
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  
+  #tm{
+    position: relative;
+    top:10px;
+  }
+  #pm{
+    position:relative;
+    top: 10px;
+  }
+  
+  #we{
+    border-radius: 40px;
+    position: absolute;
+    left: 1380px;
+    top: 33px;
+  }
+  
+  #cont1{
+    display: inline-block;
+    border-radius: 30px;
+    background-color: #fff;
+    height: 40px;
+    width: 950px;
+    position: absolute;
+    top: 30px;
+    left: 400px;
+  }
+  
+  #searching{
+    position: absolute;
+    top: 7px;
+    left: 15px;
+    border-radius: 30px;
+    border: #fff;
+    width: 770px;
+    height: 25px;
+  }
+  
+  
+  #cont2{
+    position: absolute;
+    display: inline-block;
+    height: 80vh;
+    width: 1100px;
+    background-color: #fff;
+    border-radius: 30px;
+    left: 350px;
+    top: 100px;
+  }
+
+  #b1{
+    border: 2px solid white;
+    height: 5px;
+    width: 5px;
+    border-radius: 5px;
+  }

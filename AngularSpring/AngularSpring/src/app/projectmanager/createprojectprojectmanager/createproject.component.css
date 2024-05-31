@@ -1,0 +1,171 @@
+.same{
+
+    height: 40px;
+    line-height: 40px;
+    font-size: larger;
+  }
+  
+  .same:hover{
+    background-color: #fff;
+    border-radius: 10px;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+    font-size: large;
+  }
+  
+  
+  #but2{
+  position: relative;
+  margin-top: 30px;
+  }
+  
+  #part1{
+    border-radius: 30px;
+    text-align: center;
+    background: rgba(87, 87, 87, 0.5);
+  }
+  
+  #part2{
+    margin-left: 10px;
+    border-radius: 30px;
+    text-align: center;
+    background: rgba(87, 87, 87, 0.5);
+  }
+  
+  #paradiv
+  {
+    height: 97vh;
+    display: grid;
+    grid-template-columns: 20% 80%;
+  }
+  
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  
+  #tm{
+    position: relative;
+    top: 20px;
+  }
+  
+  #img{
+    border-radius: 40px;
+    position: absolute;
+    left: 1380px;
+    top: 33px;
+  }
+  
+  #cont1{
+    display: inline-block;
+    border-radius: 30px;
+    background-color: #fff;
+    height: 40px;
+    width: 950px;
+    position: absolute;
+    top: 30px;
+    left: 400px;
+  }
+  
+  #searching{
+    position: absolute;
+    top: 7px;
+    left: 15px;
+    border-radius: 30px;
+    border: #fff;
+    width: 770px;
+    height: 25px;
+  }
+  
+  
+  #cont2{
+    position: absolute;
+    display: inline-block;
+    height: 80vh;
+    width: 1100px;
+    background-color: #fff;
+    border-radius: 30px;
+    left: 350px;
+    top: 100px;
+  }
+
+
+
+
+
+
+
+
+
+  /* Styling for the table */
+#projectTable {
+  width: 60%;
+  height: 50vh;
+  border-collapse: collapse;
+  margin: 20px 0;
+  margin-left: 220px;
+  font-size: 17px;
+  text-align: left;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for table headers */
+#projectTable th, #projectTable td {
+  padding: 12px 10px;
+}
+
+
+/* Styling for table headers */
+#projectTable th {
+  color: #ffffff;
+  text-align: center;
+}
+
+/* Styling for table rows */
+#projectTable tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+/* Styling for table rows on hover */
+#projectTable tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Styling for form labels */
+#projectForm label {
+  font-weight: bold;
+}
+
+/* Styling for input fields */
+#projectForm input[type="text"], #projectForm input[type="date"], #projectForm select, #projectForm textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0 10px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Styling for the submit button */
+#submitButton {
+  width: 50%;
+  margin-left: 200px;
+  background-color: aqua;
+  color: white;
+  padding: 10px 10px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Styling for the submit button on hover */
+#submitButton:hover {
+  background-color: aqua
+}
